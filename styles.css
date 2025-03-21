@@ -162,6 +162,7 @@ header::before {
   left: 50%;
   transform: translate(-50%, -50%);
   background-image: url("assets/header-bg.jpg");
+  background-image: url("assets/mudvolcano.jpg");
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -181,7 +182,7 @@ header::before {
   margin-bottom: 5px;
   font-size: 1rem;
   font-weight: 600;
-  color: var(--text-dark);
+  color: var(--extra-light);
   text-align: center;
 }
 
@@ -189,7 +190,7 @@ header::before {
   margin-bottom: 2rem;
   font-size: 4.5rem;
   font-weight: 600;
-  color: var(--text-dark);
+  color: var(--extra-light);
   line-height: 5.5rem;
   text-align: center;
 }
@@ -203,6 +204,10 @@ header::before {
 
 .header__btns .btn {
   padding: 1rem 2rem;
+}
+
+.btn-div {
+  border-radius: 10px !important;
 }
 
 .header__btns a {
@@ -670,10 +675,6 @@ footer {
 
   .nav__links a:hover {
     color: var(--primary-color);
-  }
-
-  .nav__links li:last-child {
-    display: none;
   }
 
   .nav__btns {
