@@ -212,7 +212,7 @@ header::before {
 
 .header__btns a {
   padding: 9px 13px;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   color: var(--primary-color);
   background-color: var(--white);
   border-radius: 100%;
@@ -603,7 +603,25 @@ footer {
   text-align: center;
 }
 
+@media screen and (max-width: 400px) {
+  .header__btns a {
+    font-size: 1rem;
+  }
+
+  .header__content p {
+    display: none;
+  }
+  
+  .header__content h1 {
+    font-size: 3rem;
+  }
+}
+
 @media (width > 540px) {
+  .header__btns a {
+    font-size: 1rem;
+  }
+
   .destination__grid {
     grid-template-columns: repeat(2, 1fr);
   }
