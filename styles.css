@@ -235,6 +235,7 @@ header::before {
 }
 
 .destination__card img {
+  height: 220px;
   border-radius: 1.5rem;
   box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
 }
